@@ -1,0 +1,19 @@
+.navigationbar {
+background-color: #1e293b;
+text-align: center;
+padding: 20px;
+}
+
+.navigationbar a {
+color: #e2e8f0;
+font-weight: bold;
+}
+
+.navigationbar a:hover {
+color: #38bdf8;
+}
+
+.personal_info {
+padding: 30px;
+background-color: #1e293b;
+border-radius: 12px;
