@@ -1,19 +1,75 @@
 .navigationbar {
-background-color: #1e293b;
-text-align: center;
-padding: 20px;
+	background-color: #1e293b;
+	text-align: center;
+	padding: 20px;
 }
 
 .navigationbar a {
-color: #e2e8f0;
-font-weight: bold;
+	color: #e2e8f0;
+	font-weight: bold;
 }
 
 .navigationbar a:hover {
-color: #38bdf8;
+	color: #38bdf8;
 }
 
 .personal_info {
-padding: 30px;
-background-color: #1e293b;
-border-radius: 12px;
+	padding: 30px;
+	background-color: #1e293b;
+	border-radius: 12px;
+}
+
+.skills {
+	display: inline-block;
+	text-align: center;
+	margin: 15px;
+	font-weight: bold;
+}
+
+.html {
+	background-color: #e34c26;
+}
+
+.html:hover {
+	box-shadow: #e34c26;
+}
+
+.css {
+	box-shadow: #264de4;
+}
+
+.css:hover {
+	box-shadow: #264de4;
+}
+
+.javascript {
+	background-color: #f0db4f;
+}
+
+.javascript:hover {
+	box-shadow: #f0db4f;
+}
+
+.python {
+	background-color: #3776ab;
+}
+
+.python:hover {
+	box-shadow: #3776ab;
+}
+
+.git {
+	background-color: #f97316;
+}
+
+.git:hover {
+	box-shadow: #f97316;
+}
+
+.sql {
+	background-color: #9333ea;
+}
+
+.sql:hover {
+	box-shadow: #933ea;
+}
