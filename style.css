@@ -1,134 +1,102 @@
 body {
-	font-family: Arial, Helvetica, sans-serif;
-	background-color: #0f172a;
-	color: #e2e8f0;
-}
-
-h2 {
-	color: #38bdf8;
-}
-
-a {
-	color: #38bdf8;
-}
-
-.navigationbar {
-	background-color: #1e293b;
-	text-align: center;
-	padding: 20px;
+    background-color: #0d0d0d;
+    color: white;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
 }
 
 .navigationbar a {
-	color: #e2e8f0;
-	font-weight: bold;
-	font-size: 16px;
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
 }
 
-.navigationbar a:hover {
-	color: #38bdf8;
+.section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(6px);
 }
 
-.personal_info {
-	padding: 30px;
-	background-color: #1e293b;
-	border-radius: 12px;
-	margin: 40px;
-	padding: 30px;
+.content {
+    text-align: center;
+    width: 80%;
+    max-width: 900px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
 }
 
-.skills {
-	display: inline-block;
-	text-align: center;
-	margin: 15px;
-	font-weight: bold;
+.intro_name {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
-.html {
-	background-color: #e34c26;
+.intro_title {
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #bbbbbb;
 }
 
-.html:hover {
-	box-shadow: #e34c26;
+.skills_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
 }
 
-.css {
-	box-shadow: #264de4;
+.skills_container div {
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-weight: bold;
 }
 
-.css:hover {
-	box-shadow: #264de4;
+.skills_html { 
+	background-color: #e34c26; 
 }
 
-.javascript {
-	background-color: #f0db4f;
+.skills_css { 
+	background-color: #264de4; 
 }
 
-.javascript:hover {
-	box-shadow: #f0db4f;
+.skills_js { 
+	background-color: #f0db4f; color: black; 
 }
 
-.python {
-	background-color: #3776ab;
+.skills_python { 
+	background-color: #306998; 
 }
 
-.python:hover {
-	box-shadow: #3776ab;
+.skills_git { 
+	background-color: #f1502f; 
 }
 
-.git {
-	background-color: #f97316;
+.skills_sql { 
+	background-color: #00aaff; 
 }
 
-.git:hover {
-	box-shadow: #f97316;
+.project_card {
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
 }
 
-.sql {
-	background-color: #9333ea;
+.project_card img {
+    width: 100%;
+    border-radius: 10px;
 }
 
-.sql:hover {
-	box-shadow: #933ea;
-}
-
-.projects-grid {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-}
-
-.project-card {
-	background-color: #334155;
-	padding: 20px;
-	border-radius: 10px;
-	margin-bottom: 30px;
-}
-
-.project-image {
-	background-color: #475569;
-	height: 150px;
-	margin: 15px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 6px;
-}
-
-.project-description {
-	background-color: #1e293b;
-	padding: 10px;
-	border-radius: 6px;
-}
-
-.button {
-	display: inline-block;
-	padding: 20px;
-	background-color: #38bdf8;
-	color: black;
-	border-radius: 6px;
-	font-weight: bold;
-}
-
-.button:hover {
-	background-color: #0ea5e9;
+.scroll_arrow {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    opacity: 0.6;
 }
