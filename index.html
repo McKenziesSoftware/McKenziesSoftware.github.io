@@ -1,117 +1,147 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<title> Kenzie | Web Developer </title>
+    <title> Kenzie Portfolio </title>
 
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-dark custom_nav">
-        <div class="container justify-content-center navigationbar">
-            <a href="#about"> About Me </a>
-            <a href="#education"> Education </a>
-            <a href="#skills"> Skills </a>
-            <a href="#projects"> Projects </a>
-        </div>
-    </nav>
+<nav class="navbar">
+<div class="nav">
+<div class="links">
+<a href="#home"> Home </a>
+<a href="#projects"> Projects </a>
+<a href="#contact"> Contact </a>
+</div>
+</div>
+</nav>
 
-    <section id="about" class="section">
-        <div class="content">
-			
-            <h1 class="intro_name"> Kenzie </h1>
-            <h2 class="intro_title"> Web Developer </h2>
+<section id="home" class="hero">
+<div class="hero-box">
+<div class="hero-left">
+<p> Hello, I'm </p>
+<h1 class="name"> Kenzie </h1>
+<p> Web & Game Developer </p>
 
-            <div class="info_grid">
+<p> Hey there! I'm a current Software Development student at Mohawk College who is eager to create new websites and games. </p>
 
-                <div class="info_card">
-                    <h3> About Me </h3>
-                    <p> Aspiring software developer passionate about building clean and user-friendly applications. </p>
-                    <p> I enjoy learning new technologies and solving real-world problems through code. </p>
-                </div>
+<div class="education">
+<strong> Software Development Diploma </strong> <br>
+Mohawk College<br>
+Expected Graduation: January 2027
+</div>
 
-                <div class="info_card">
-                    <h3> Contact </h3>
-                    <p> Email: mckenzie.cuss@mohawkcollege.ca </p>
-                    <p> GitHub: <a href="https://github.com/McKenziesSoftware" target="_blank"> McKenziesSoftware </a> </p>
-                </div>
+<div class="buttons">
+<a href="#contact" class="btn btn-primary btn-small"> Contact Me </a>
+<a href="#projects" class="btn btn-primary btn-small"> My Projects </a>
+<a href="Kenzie_resume.docx" class="btn btn-primary btn-small"> Resume </a>
+</div>
+</div>
 
-                <div class="info_card">
-                    <h3> Resume </h3>
-                    <a href="Kenzie_resume.docx" class="btn btn-light"> Download Resume </a>
-                </div>
+<div class="hero-right">
+<div class="circle"> </div>
+<img src="images/Person.png">
+</div>
+</div>
+</section>
 
-            </div>
-        </div>
-    </section>
+<div class="title">
+<h3 class="pink"> Technical Skills </h3>
+</div>
 
-    <section id="education" class="section">
-        <div class="content">
-            <h2> Education </h2>
+<section class="skills">
+<div class="skills-list">
+<div class="skill"> <i class="fa-brands fa-html5"> </i> HTML </div>
+<div class="skill"> <i class="fa-brands fa-css3-alt"> </i> CSS </div>
+<div class="skill"> <i class="fa-brands fa-js"> </i> JavaScript </div>
+<div class="skill"> <i class="fa-brands fa-react"> </i> React Native </div>
+<div class="skill"> <i class="fa-brands fa-node-js"> </i> Node.js </div>
+<div class="skill"> <i class="fa-brands fa-python"> </i> Python </div>
+<div class="skill"> <i class="fa-brands fa-git-alt"> </i> Git </div>
+<div class="skill"> <i class="fa-solid fa-database"> </i> SQL </div>
+</div>
+</section>
 
-            <p> Mohawk College </p>
-            <p> Diploma Info </p>
-            <p> Expected Graduation: January 2027 </p>
-        </div>
-    </section>
+<section class="section">
+<h2 class="pink">Soft Skills</h2>
 
-    <section id="skills" class="section">
-        <div class="content">
-			
-            <h1> Skills </h1>
-            <div class="skills_container">
-                <div class="skill_btn skills_html"> HTML </div>
-                <div class="skill_btn skills_css"> CSS </div>
-                <div class="skill_btn skills_js"> JavaScript </div>
-                <div class="skill_btn skills_python"> Python </div>
-                <div class="skill_btn skills_git"> Git </div>
-                <div class="skill_btn skills_sql"> SQL </div>
-            </div>
-        </div>
-    </section>
+<div class="soft-skills">
+<div class="soft-box"> <i class="fa-solid fa-comments"> </i> <h4> Communicator </h4> </div>
+<div class="soft-box"> <i class="fa-solid fa-lightbulb"> </i> <h4> Problem Solver </h4> </div>
+<div class="soft-box"> <i class="fa-solid fa-users"> </i> <h4> Collaborator </h4> </div>
+<div class="soft-box"> <i class="fa-solid fa-clock"> </i> <h4> Time Management </h4> </div>
+<div class="soft-box"> <i class="fa-solid fa-heart"> </i> <h4> Adaptable </h4> </div>
+<div class="soft-box"> <i class="fa-solid fa-book"> </i> <h4> Quick Learner </h4> </div>
+<div class="soft-box"> <i class="fa-solid fa-shield-halved"> </i> <h4> Reliable </h4> </div>
+<div class="soft-box"> <i class="fa-solid fa-star"> </i> <h4> Creative </h4> </div>
+</div>
+</section>
 
-    <section id="projects" class="section">
-        <div class="content">
-			
-            <h1> Projects </h1>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="project_card">
-                            <img src="https://via.placeholder.com/400x250">
-                            <h3> Project A </h3>
-                            <p> Simple task manager web app that helps users track daily tasks. </p>
-                            <p> 2025 </p>
-                        </div>
-                    </div>
+<section id="projects" class="section">
+<h2 class="pink"> Project Showcase </h2>
+<p> Disclaimer: I did not actually create these games! These are just empty examples for my assignment. </p>
 
-                    <div class="col-md-4">
-                        <div class="project_card">
-                            <img src="https://via.placeholder.com/400x250">
-                            <h3> Project B </h3>
-                            <p> Interactive quiz application built with JavaScript. </p>
-                            <p> 2025 </p>
-                        </div>
-                    </div>
+<div class="projects">
+<div class="project-card">
+<h3> Counter-Strike: Global Offensive </h3>
+<img src="images/Counterstrike.jpg">
+<p> The world's number 1 online action game. Engage in an incredibly realistic brand of terrorist warfare in this wildly popular team-based game. Ally with teammates to complete strategic missions. Take out enemy sites. Rescue hostages. Your role affects your team's success. Your team's success affects your role. </p>
+</div>
 
-                    <div class="col-md-4">
-                        <div class="project_card">
-							
-                            <img src="https://via.placeholder.com/400x250">
-                            <h3> Project C </h3>
+<div class="project-card">
+<h3> Animal Jam </h3>
+<img src="images/AnimalJam.jpg">
+<p> Animal Jam is the best online community for kids and a safe place to meet and chat with new friends — plus decorate your own den, play fun animal games, adopt awesome pets, and learn about the natural world from videos, animal facts, and downloadable e-books! </p>
+</div>
 
-                            <p> Personal budgeting tool using Python and SQL. </p>
-                            <p> 2025 </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<div class="project-card">
+<h3> Powerwash Simulator </h3>
+<img src="images/Powerwash.jpg">
+<p> Release the Pressure with PowerWash Simulator! Wash away your worries with the soothing sounds of high-pressure water. Fire up your power washer and blast away every speck of dirt and grime you can find, all with the simple satisfaction of power-washing to a sparkling finish. </p>
+</div>
 
+<div class="project-card">
+<h3> Valorant </h3>
+<img src="images/Valorant.jpg">
+<p> Blend your style and experience on a global, competitive stage. You have 13 rounds to attack and defend your side using sharp gunplay and tactical abilities. And, with one life per-round, you'll need to think faster than your opponent if you want to survive. Take on foes across Competitive and Unranked modes as well as Deathmatch and Spike Rush. </p>
+</div>
+
+<div class="project-card">
+<h3> Minecraft </h3>
+<img src="images/Minecraft.png">
+<p> Build anything you can imagine, uncover eerie mysteries, and survive the night in the ultimate sandbox adventure game. In Minecraft, every playthrough is different, and unforgettable adventures await behind every corner. Explore and craft your way through an infinite world that’s yours to shape, one block at a time. </p>
+</div>
+
+<div class="project-card">
+<h3> Terraria </h3>
+<img src="images/Terraria.jpg">
+<p> Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available! </p>
+</div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="contact-box">
+<h2 class="pink"> Contact Me </h2>
+
+<form class="form">
+<input type="email" placeholder= "Please include your email here!" required>
+<textarea placeholder=" Include your message here!" required> </textarea>
+<button class="btn btn-primary btn-small"> Send </button>
+</form>
+</div>
+
+<div class="icons">
+<a href="https://github.com/McKenziesSoftware" class="icon"> <i class="fa-brands fa-github"> </i> </a>
+<a href="mailto:mckenzie.cuss@mohawkcollege.ca" class="icon"> <i class="fa-solid fa-envelope"> </i> </a>
+<a href="https://www.linkedin.com/in/burrpelt-undefined-5305152b8/" class="icon"> <i class="fa-brands fa-linkedin"> </i> </a>
+</div>
+</section>
 </body>
 </html>
+
 
